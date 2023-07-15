@@ -1,6 +1,7 @@
 import unittest
+from src.email_validation import validator
 
 
 class TestEmailValidation(unittest.TestCase):
     def test_email_length(self):
-        assert 1 == 1
+        assert validator("ranjith@gmail.com") == True
