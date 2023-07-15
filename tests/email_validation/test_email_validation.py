@@ -1,5 +1,5 @@
 import unittest
-from src.email_validation import validator
+from src.email_validation.email_validation import validator
 
 
 class TestEmailValidation(unittest.TestCase):
