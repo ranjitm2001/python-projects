@@ -12,15 +12,15 @@ def validator(in_email: str) -> bool:
         return False
 
     # email should contain only one '@'
-    if '@' not in in_email or in_email.count('@') != 1:
+    if "@" not in in_email or in_email.count("@") != 1:
         return False
 
     # email last 3rd or 4th should be '.'
-    if not ((in_email[-3] == '.') ^ (in_email[-4] == '.')):
+    if not ((in_email[-3] == ".") ^ (in_email[-4] == ".")):
         return False
 
     for letter in in_email:
-        if letter == '@' or letter == '.' or letter == '_':
+        if letter == "@" or letter == "." or letter == "_":
             # email contain only these three special characters
             continue
         elif letter.isdigit():

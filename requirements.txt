@@ -1,6 +1,12 @@
 black==23.7.0
 click==8.1.5
 mypy-extensions==1.0.0
+numpy==1.25.1
+opencv-python==4.8.0.74
 packaging==23.1
 pathspec==0.11.1
 platformdirs==3.9.0
+pypng==0.20220715.0
+pyzbar==0.1.9
+qrcode==7.4.2
+typing_extensions==4.7.1
